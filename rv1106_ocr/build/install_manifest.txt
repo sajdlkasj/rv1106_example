@@ -1,0 +1,9 @@
+/home/lubancat/Desktop/rv1106_ocr/build/bin/rv1106_OCR
+/home/lubancat/Desktop/rv1106_ocr/build/bin/models/keys.txt
+/home/lubancat/Desktop/rv1106_ocr/build/bin/models/angle_op.param
+/home/lubancat/Desktop/rv1106_ocr/build/bin/models/dbnet_op.param
+/home/lubancat/Desktop/rv1106_ocr/build/bin/models/angle_op.bin
+/home/lubancat/Desktop/rv1106_ocr/build/bin/models/dbnet_op.bin
+/home/lubancat/Desktop/rv1106_ocr/build/bin/models/crnn_lite_op.bin
+/home/lubancat/Desktop/rv1106_ocr/build/bin/models/crnn_lite_op.param
+/home/lubancat/Desktop/rv1106_ocr/build/bin/image/test.jpg

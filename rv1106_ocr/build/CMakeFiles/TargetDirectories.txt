@@ -1,0 +1,7 @@
+/home/lubancat/Desktop/rv1106_ocr/build/CMakeFiles/rv1106_OCR.dir
+/home/lubancat/Desktop/rv1106_ocr/build/CMakeFiles/edit_cache.dir
+/home/lubancat/Desktop/rv1106_ocr/build/CMakeFiles/rebuild_cache.dir
+/home/lubancat/Desktop/rv1106_ocr/build/CMakeFiles/list_install_components.dir
+/home/lubancat/Desktop/rv1106_ocr/build/CMakeFiles/install.dir
+/home/lubancat/Desktop/rv1106_ocr/build/CMakeFiles/install/local.dir
+/home/lubancat/Desktop/rv1106_ocr/build/CMakeFiles/install/strip.dir
