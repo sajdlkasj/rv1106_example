@@ -1,0 +1,161 @@
+{
+  "source": "accuracy/v4_manual_gt_and_predictions.json",
+  "per_image": {
+    "data/test.jpg": {
+      "line_count_proxy": {
+        "visual_gt_lines": 16,
+        "detected_boxes": 16,
+        "count_ratio": 1.0,
+        "warning": "仅为框数量一致性代理，不是带 polygon 标注的 Det precision/recall。"
+      },
+      "raw_recognizer": {
+        "strict_nfkc_no_whitespace": {
+          "gt_lines": 16,
+          "emitted_lines": 16,
+          "exact_lines": 12,
+          "exact_line_rate": 0.75,
+          "gt_characters": 203,
+          "edit_errors": 8,
+          "cer": 0.039409,
+          "character_accuracy_1_minus_cer": 0.960591
+        },
+        "content_only_no_punctuation_or_symbols": {
+          "gt_lines": 16,
+          "emitted_lines": 16,
+          "exact_lines": 12,
+          "exact_line_rate": 0.75,
+          "gt_characters": 164,
+          "edit_errors": 8,
+          "cer": 0.04878,
+          "character_accuracy_1_minus_cer": 0.95122
+        }
+      },
+      "accepted_end_to_end": {
+        "strict_nfkc_no_whitespace": {
+          "gt_lines": 16,
+          "emitted_lines": 16,
+          "exact_lines": 12,
+          "exact_line_rate": 0.75,
+          "gt_characters": 203,
+          "edit_errors": 8,
+          "cer": 0.039409,
+          "character_accuracy_1_minus_cer": 0.960591
+        },
+        "content_only_no_punctuation_or_symbols": {
+          "gt_lines": 16,
+          "emitted_lines": 16,
+          "exact_lines": 12,
+          "exact_line_rate": 0.75,
+          "gt_characters": 164,
+          "edit_errors": 8,
+          "cer": 0.04878,
+          "character_accuracy_1_minus_cer": 0.95122
+        }
+      }
+    },
+    "data/test1.jpg": {
+      "line_count_proxy": {
+        "visual_gt_lines": 3,
+        "detected_boxes": 3,
+        "count_ratio": 1.0,
+        "warning": "仅为框数量一致性代理，不是带 polygon 标注的 Det precision/recall。"
+      },
+      "raw_recognizer": {
+        "strict_nfkc_no_whitespace": {
+          "gt_lines": 3,
+          "emitted_lines": 3,
+          "exact_lines": 0,
+          "exact_line_rate": 0.0,
+          "gt_characters": 18,
+          "edit_errors": 3,
+          "cer": 0.166667,
+          "character_accuracy_1_minus_cer": 0.833333
+        },
+        "content_only_no_punctuation_or_symbols": {
+          "gt_lines": 3,
+          "emitted_lines": 3,
+          "exact_lines": 2,
+          "exact_line_rate": 0.666667,
+          "gt_characters": 16,
+          "edit_errors": 1,
+          "cer": 0.0625,
+          "character_accuracy_1_minus_cer": 0.9375
+        }
+      },
+      "accepted_end_to_end": {
+        "strict_nfkc_no_whitespace": {
+          "gt_lines": 3,
+          "emitted_lines": 2,
+          "exact_lines": 0,
+          "exact_line_rate": 0.0,
+          "gt_characters": 18,
+          "edit_errors": 4,
+          "cer": 0.222222,
+          "character_accuracy_1_minus_cer": 0.777778
+        },
+        "content_only_no_punctuation_or_symbols": {
+          "gt_lines": 3,
+          "emitted_lines": 2,
+          "exact_lines": 2,
+          "exact_line_rate": 0.666667,
+          "gt_characters": 16,
+          "edit_errors": 2,
+          "cer": 0.125,
+          "character_accuracy_1_minus_cer": 0.875
+        }
+      }
+    }
+  },
+  "combined": {
+    "line_count_proxy": {
+      "visual_gt_lines": 19,
+      "detected_boxes": 19,
+      "count_ratio": 1.0,
+      "warning": "仅为框数量一致性代理，不是带 polygon 标注的 Det precision/recall。"
+    },
+    "raw_recognizer": {
+      "strict_nfkc_no_whitespace": {
+        "gt_lines": 19,
+        "emitted_lines": 19,
+        "exact_lines": 12,
+        "exact_line_rate": 0.631579,
+        "gt_characters": 221,
+        "edit_errors": 11,
+        "cer": 0.049774,
+        "character_accuracy_1_minus_cer": 0.950226
+      },
+      "content_only_no_punctuation_or_symbols": {
+        "gt_lines": 19,
+        "emitted_lines": 19,
+        "exact_lines": 14,
+        "exact_line_rate": 0.736842,
+        "gt_characters": 180,
+        "edit_errors": 9,
+        "cer": 0.05,
+        "character_accuracy_1_minus_cer": 0.95
+      }
+    },
+    "accepted_end_to_end": {
+      "strict_nfkc_no_whitespace": {
+        "gt_lines": 19,
+        "emitted_lines": 18,
+        "exact_lines": 12,
+        "exact_line_rate": 0.631579,
+        "gt_characters": 221,
+        "edit_errors": 12,
+        "cer": 0.054299,
+        "character_accuracy_1_minus_cer": 0.945701
+      },
+      "content_only_no_punctuation_or_symbols": {
+        "gt_lines": 19,
+        "emitted_lines": 18,
+        "exact_lines": 14,
+        "exact_line_rate": 0.736842,
+        "gt_characters": 180,
+        "edit_errors": 10,
+        "cer": 0.055556,
+        "character_accuracy_1_minus_cer": 0.944444
+      }
+    }
+  }
+}

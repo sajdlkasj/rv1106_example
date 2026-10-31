@@ -1,0 +1,39 @@
+{
+  "description": "2026-10-31 对 data/test.jpg 与 data/test1.jpg 逐行人工核对；预测来自 RV1106 上的 PP-OCRv4 INT8 RKNN。aligned 数组按同一视觉文本行对齐。",
+  "normalization": "Unicode NFKC 后删除所有空白；保留标点、大小写和文字。",
+  "images": [
+    {
+      "image": "data/test.jpg",
+      "visual_gt_line_count": 16,
+      "detected_box_count": 16,
+      "aligned": [
+        {"gt": "纯臻营养护发素", "raw_rec": "纯营养护发素", "accepted": "纯营养护发素", "score": 0.709973},
+        {"gt": "产品信息/参数", "raw_rec": "产品信息/参数", "accepted": "产品信息/参数", "score": 0.707169},
+        {"gt": "（45元/每公斤，100公斤起订）", "raw_rec": "（45元/每公斤，100公斤起订）", "accepted": "（45元/每公斤，100公斤起订）", "score": 0.694775},
+        {"gt": "每瓶22元，1000瓶起订）", "raw_rec": "每瓶22元，1000瓶起订）", "accepted": "每瓶22元，1000瓶起订）", "score": 0.701779},
+        {"gt": "【品牌】：代加工方式/OEM ODM", "raw_rec": "【品牌】：代加工方式/OEMODM", "accepted": "【品牌】：代加工方式/OEMODM", "score": 0.699776},
+        {"gt": "【品名】：纯臻营养护发素", "raw_rec": "【品名】：纯营养护发素", "accepted": "【品名】：纯营养护发素", "score": 0.702344},
+        {"gt": "【产品编号】：YM-X-3011", "raw_rec": "【产品编号】：YM-X-3011", "accepted": "【产品编号】：YM-X-3011", "score": 0.708009},
+        {"gt": "ODM OEM", "raw_rec": "ODMOEM", "accepted": "ODMOEM", "score": 0.707691},
+        {"gt": "【净含量】：220ml", "raw_rec": "【净含量】：220ml", "accepted": "【净含量】：220ml", "score": 0.709418},
+        {"gt": "【适用人群】：适合所有肤质", "raw_rec": "【适用人群】：适合所有肤质", "accepted": "【适用人群】：适合所有肤质", "score": 0.709049},
+        {"gt": "【主要成分】：鲸蜡硬脂醇、燕麦β-葡聚", "raw_rec": "【主要成分】：硬脂醇、麦β-葡", "accepted": "【主要成分】：硬脂醇、麦β-葡", "score": 0.680100},
+        {"gt": "糖、椰油酰胺丙基甜菜碱、泛醌", "raw_rec": "糖、椰油酰胺丙基甜菜、泛配", "accepted": "糖、椰油酰胺丙基甜菜、泛配", "score": 0.659128},
+        {"gt": "（成品包材）", "raw_rec": "（成品包材）", "accepted": "（成品包材）", "score": 0.708399},
+        {"gt": "【主要功能】：可紧致头发磷层，从而达到", "raw_rec": "【主要功能】：可紧致头发磷层，从而达到", "accepted": "【主要功能】：可紧致头发磷层，从而达到", "score": 0.696540},
+        {"gt": "即时持久改善头发光泽的效果，给干燥的头", "raw_rec": "即时持久改善头发光泽的效果，给干燥的头", "accepted": "即时持久改善头发光泽的效果，给干燥的头", "score": 0.705182},
+        {"gt": "发足够的滋养", "raw_rec": "发足够的滋养", "accepted": "发足够的滋养", "score": 0.707768}
+      ]
+    },
+    {
+      "image": "data/test1.jpg",
+      "visual_gt_line_count": 3,
+      "detected_box_count": 3,
+      "aligned": [
+        {"gt": "奋斗", "raw_rec": "斗", "accepted": "", "score": 0.457527},
+        {"gt": "梅花香自苦寒来。", "raw_rec": "梅花香自苦寒来", "accepted": "梅花香自苦寒来", "score": 0.706942},
+        {"gt": "宝剑锋从磨砺出，", "raw_rec": "宝剑锋从磨砺出", "accepted": "宝剑锋从磨砺出", "score": 0.630047}
+      ]
+    }
+  ]
+}

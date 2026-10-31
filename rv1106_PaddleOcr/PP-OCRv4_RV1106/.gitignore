@@ -1,0 +1,15 @@
+build/
+logs/
+output/
+backups/
+downloads/
+toolchain/
+__pycache__/
+*.py[cod]
+*.log
+out.jpg
+.DS_Store
+Thumbs.db
+语雀*.md
+README*.md
+*-README.md
